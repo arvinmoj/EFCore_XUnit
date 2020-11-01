@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Data Source = (LocalDb)\MSSQLLocalDB;Initial Catalog=AdventureWorks2016;Integrated Security=True" Microsoft.EntityframeworkCore.SqlServer -d -c AdventureWorksContext -o EfStructures\Entities --force
